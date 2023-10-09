@@ -1,4 +1,4 @@
-# script to manipulate and visualize gene expression data
+# script to manipulate gene expression data
 
 # load libraries
 library(dplyr)
@@ -8,7 +8,7 @@ library(tidyverse)
 library(ggplot2)
 
 # read the data
-data <- read.table(file = 'C:/Users/Oleg/OneDrive/Документы/R/data manipulation/data/GSE228043_Camk2aTRAP_RPKM.txt')
+data <- read.table(file = 'GSE228043_Camk2aTRAP_RPKM.txt')
 dim(data)
 
 # get metadata
